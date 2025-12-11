@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>FuelX Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <style>
+    .banner {
+      background-image: url('https://images.unsplash.com/photo-1529921879218-fc8fdf2f7ddc');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body>
+
+ 
+  <nav class="bg-black/80 text-white p-4 flex justify-between items-center sticky top-0 backdrop-blur-md z-30 h-20">
+    <h1 class="text-5xl font-bold mr-0 ">Fuel <i class="fa-brands fa-xing ml-0" style="color: #d20f0f;"></i> </h1>
+    <div class="space-x-6 text-xs md:text-xl">
+      <a href="home.html" class="hover:text-yellow-300 font-bold">Home</a>
+      <a href="services.html" class="hover:text-yellow-300 font-bold">Services</a>
+      <a href="prices.html" class="hover:text-yellow-300 font-bold">Fuel Prices</a>
+      <a href="contact.html" class="hover:text-yellow-300 font-bold">Contact</a>
+    </div>
+  </nav>
+
+ 
+  <header class="banner h-[70vh] flex items-center justify-center text-white text-center relative z-20">
+    <div class="bg-black/60 p-8 rounded-xl shadow-xl">
+      <h1 class="text-5xl font-bold mb-4">Welcome to FuelX Station</h1>
+      <p class="text-xl">Fast • Trusted • Professional Fuel Services</p>
+    </div>
+  </header>
+  <div>
+    <img src="./Images/home_banner.jpg" class="w-full absolute top-0 left-0" style="height: 100vh;" alt="">
+  </div>
+ 
+<section class="bg-gray-50 py-16 mt-20">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+    
+    
+    <div class="relative">
+      <img 
+        src="./Images/about-banner.jpg" 
+        alt="Fuel Station" 
+        class="rounded-2xl shadow-xl"
+      >
+      <div class="absolute -bottom-4 -right-4 bg-blue-600 text-white px-4 py-2 rounded-xl shadow-lg text-sm">
+        Since 1998
+      </div>
+    </div>
+    <div>
+      <h2 class="text-4xl font-bold text-gray-800 mb-4">About Our Fuel Station</h2>
+      <p class="text-gray-600 leading-relaxed mb-6">
+        At <span class="font-semibold">FuelUp Station</span>, we provide premium quality petrol, diesel, and 
+        automotive services to ensure every ride is smooth and safe.  
+        Our commitment is to offer fast service, transparent pricing, and a customer-first experience.
+      </p>
+
+      <ul class="space-y-3">
+        <li class="flex items-center gap-3">
+          <span class="bg-blue-600 text-white p-2 rounded-full">⛽</span>
+          <p class="text-gray-700">High-quality Petrol & Diesel</p>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="bg-green-600 text-white p-2 rounded-full">🛠️</span>
+          <p class="text-gray-700">Professional Maintenance Services</p>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="bg-yellow-500 text-white p-2 rounded-full">⭐</span>
+          <p class="text-gray-700">24/7 Customer Support</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-gray-900 text-gray-300 py-12 mt-16">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+
+    
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4">FuelX</h3>
+      <p class="text-gray-400">
+        Delivering quality fuel and premium services for your safe and smooth journey.  
+        Trusted by thousands of customers every day.
+      </p>
+    </div>
+
+   
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4">Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-blue-400">Home</a></li>
+        <li><a href="#" class="hover:text-blue-400">Services</a></li>
+        <li><a href="#" class="hover:text-blue-400">Prices</a></li>
+        <li><a href="#" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </div>
+
+   
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4">Contact Us</h3>
+      <p class="text-gray-400">📍 123 Fuel Street, India</p>
+      <p class="text-gray-400">📞 +91 98765 43210</p>
+      <p class="text-gray-400">✉️ support@fuelX.com</p>
+
+      <div class="flex gap-4 mt-4">
+        <a href="#" class="text-gray-400 hover:text-blue-400 text-xl">🌐</a>
+        <a href="#" class="text-gray-400 hover:text-blue-400 text-xl">📘</a>
+        <a href="#" class="text-gray-400 hover:text-blue-400 text-xl">📸</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="text-center text-gray-500 border-t border-gray-700 mt-10 pt-6">
+    © 2025 FuelX. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>

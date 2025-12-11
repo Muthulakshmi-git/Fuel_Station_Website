@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 p-12">
+
+  <!-- Navbar -->
+  <nav class="bg-black/80 text-white p-4 flex justify-between items-center gap-5 sticky top-0">
+    <h1 class="text-3xl md:5xl font-bold">Fuel  <i class="fa-brands fa-xing ml-0" style="color: #d20f0f;"></i></h1>
+    <div class=" space-x-3 md:space-x-6 text-xs md:text-xl">
+      <a href="home.html" class="hover:text-yellow-300 font-bold">Home</a>
+      <a href="services.html" class="hover:text-yellow-300 font-bold">Services</a>
+      <a href="prices.html" class="hover:text-yellow-300 font-bold">Fuel Prices</a>
+      <a href="contact.html" class="hover:text-yellow-300 font-bold">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Contact Form -->
+  <section class="max-w-3xl mx-auto bg-white p-10 rounded-xl shadow-xl mt-8">
+    <h2 class="text-4xl font-bold text-center text-blue-700 mb-8">Get in Touch</h2>
+
+    <form class="space-y-6">
+      <input type="text" placeholder="Full Name" class="w-full p-3 border rounded-lg">
+      <input type="email" placeholder="Email Address" class="w-full p-3 border rounded-lg">
+      <textarea placeholder="Your Message" rows="5" class="w-full p-3 border rounded-lg"></textarea>
+
+      <button class="w-full bg-blue-700 text-white p-3 rounded-lg hover:bg-blue-900 transition shadow-xl">
+        Send Message
+      </button>
+    </form>
+  </section>
+</body>
+</html>
